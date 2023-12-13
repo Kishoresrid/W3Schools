@@ -1,0 +1,137 @@
+@media (max-width: 87.5rem) {
+  html {
+    font-size: 56.25%;
+  }
+  .nav1 {
+    gap: 1rem;
+  }
+}
+@media (max-width: 76em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 67em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+    gap: 3rem;
+  }
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .header-link-right:link,
+  .header-link-right:visited {
+    font-size: 5rem;
+    gap: 2.5rem;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .btn-sign:link,
+  .btn-sign:visited {
+    font-size: 4rem;
+    padding: 2rem 3rem;
+  }
+  .btn-login:link,
+  .btn-login:visited {
+    font-size: 4rem;
+    padding: 2rem 4rem;
+  }
+  .header-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media (max-width: 53em) {
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+  .example {
+    justify-self: center;
+  }
+  .align-end,
+  .align-start {
+    justify-self: center;
+  }
+  .grid-4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gif-content {
+    width: 85%;
+    text-align: center;
+  }
+}
+@media (max-width: 47em) {
+  .removelink {
+    display: none;
+  }
+  .grid-3-rows {
+    grid-template-columns: 1fr;
+  }
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 34em) {
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+  .heading-tertiary {
+    font-size: 1.8rem;
+  }
+  .hero-form input {
+    font-size: 1.4rem;
+    width: 80%;
+
+    padding: 0.4rem 3.2rem 0.4rem 1.2rem;
+  }
+  .heading-top {
+    font-size: 6.2rem;
+  }
+  .button {
+    gap: 0.3rem;
+  }
+}
+@media (max-width: 29em) {
+  html {
+    font-size: 43.75%;
+  }
+  .example {
+    display: none;
+  }
+  .remove-link2 {
+    display: none;
+  }
+}
+@media (max-width: 19.5em) {
+  .grid-4-cols {
+    grid-template-columns: 1fr;
+  }
+}

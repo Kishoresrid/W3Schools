@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+
+    <title>W 3 Schools</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-flex">
+        <div class="header-inner-flex">
+          <img src="download.png" alt="w3schools logo" class="logo" />
+          <nav class="nav1">
+            <a href="#" role="button" class="header-link remove-link2"
+              >Tutorials
+              <span><ion-icon name="caret-down-outline"></ion-icon></span
+            ></a>
+
+            <a href="#" role="button" class="header-link remove-link2"
+              >Exercise
+              <span><ion-icon name="caret-down-outline"></ion-icon></span
+            ></a>
+            <a href="#" role="button" class="header-link removelink"
+              >Certificates
+              <span><ion-icon name="caret-down-outline"></ion-icon></span
+            ></a>
+            <a href="#" role="button" class="header-link removelink"
+              >Services
+              <span><ion-icon name="caret-down-outline"></ion-icon></span
+            ></a>
+          </nav>
+          <input
+            type="text"
+            name="search"
+            placeholder="search..."
+            class="search"
+          />
+        </div>
+        <nav class="nav1 nav">
+          <a href="#" class="header-link-right">
+            <span
+              ><ion-icon class="header-icon" name="briefcase-outline"></ion-icon
+            ></span>
+            <span>Jobs</span>
+          </a>
+          <a href="#" class="header-link-right">
+            <span
+              ><ion-icon
+                name="folder-open-outline"
+                class="header-icon"
+              ></ion-icon>
+            </span>
+            <span>Spaces</span>
+          </a>
+          <a href="#" class="header-link-right last">
+            <span
+              ><ion-icon name="cart-outline" class="header-icon"></ion-icon
+            ></span>
+            <span>Get Certified</span>
+          </a>
+
+          <a href="#" class="btn btn-sign">Sign Up</a>
+          <a href="#" class="btn btn-login">Log in</a>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+          <ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+        </button>
+      </div>
+    </header>
+    <div class="hero-section">
+      <div class="flex">
+        <h1 class="heading-primary">Learn to Code</h1>
+        <h3 class="heading-tertiary">
+          with the world's largest web developer site
+        </h3>
+        <form action="search" class="hero-form form-flex">
+          <input type="text" placeholder="Search our tutorials,eg.HTML" />
+          <button class="btn-hero">
+            <ion-icon name="search-outline" class="icon"></ion-icon>
+          </button>
+        </form>
+        <h4>
+          <a href="#" class="heading-four">Not sure where to begin?</a>
+        </h4>
+      </div>
+    </div>
+    <div class="concept-html">
+      <div class="grid grid-2-cols container">
+        <div class="inner">
+          <h1 class="heading-top">HTML</h1>
+          <p class="inner-text">The Language for Building Web Pages</p>
+          <div class="button">
+            <a href="#" class="learn">Learn HTML</a><br />
+            <a href="#" class="video">Video Tutorial</a><br />
+            <a href="#" class="reference">HTML Reference</a><br />
+            <a href="#" class="certified">Get Certified</a>
+          </div>
+        </div>
+        <div class="example">
+          <div class="example-innerbox">
+            <h3 class="heading-tertiary ex">HTML Example:</h3>
+            <div class="code">
+              <span class="tagcolor"><</span>
+              <span class="tagname">!DOCTYPE</span>
+              <span class="attr">html</span>
+              <span class="tagcolor">></span><br />
+              <span class="tagcolor"><</span>
+              <span class="tagname">html</span>
+              <span class="tagcolor">></span><br />
+              <span class="tagcolor"><</span>
+              <span class="tagname">title</span>
+              <span class="tagcolor">></span>
+              <span class="content">HTML Tutorial</span>
+              <span class="tagcolor"><</span>
+              <span class="tagname">/title</span>
+              <span class="tagcolor">></span><br />
+              <span class="tagcolor"><</span>
+              <span class="tagname">body</span>
+              <span class="tagcolor">></span><br /><br />
+              <span class="tagcolor"><</span>
+              <span class="tagname">h1</span>
+              <span class="tagcolor">></span>
+              <span class="content">This is a heading</span>
+              <span class="tagcolor"><</span>
+              <span class="tagname">h1</span>
+              <span class="tagcolor">></span><br />
+              <span class="tagcolor"><</span>
+              <span class="tagname">p</span>
+              <span class="tagcolor">></span>
+              <span class="content">This is a paragraph</span>
+              <span class="tagcolor"><</span>
+              <span class="tagname">p</span>
+              <span class="tagcolor">></span><br /><br />
+              <span class="tagcolor"><</span>
+              <span class="tagcolor">/</span>
+              <span class="tagname">body</span>
+              <span class="tagcolor">></span><br />
+              <span class="tagcolor"><</span>
+              <span class="tagcolor">/</span>
+              <span class="tagname">html</span>
+              <span class="tagcolor">></span>
+            </div>
+            <a href="" class="btn try">Try it Yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="concept-css">
+      <div class="grid grid-2-cols container">
+        <div class="inner">
+          <h1 class="heading-top">CSS</h1>
+          <p class="inner-text">The Language for Building Web Pages</p>
+          <div class="button">
+            <a href="" class="learn">Learn CSS</a><br />
+            <a href="" class="reference">CSS Reference</a><br />
+            <a href="" class="certified">Get Certified</a>
+          </div>
+        </div>
+        <div class="example">
+          <div class="example-innerbox">
+            <h3 class="heading-tertiary ex">CSS Example:</h3>
+            <div class="code">
+              <span class="tagname">body</span>{<br />
+              <span class="attr" style="margin-left: 5%">background-color</span
+              >: <span class="tagcolor">lightblue</span>;<br />} <br />
+              <span class="tagname">h1</span>{<br />
+              <span class="attr" style="margin-left: 5%">color</span>:
+              <span class="tagcolor">white</span>;<br />} <br />
+              <span class="tagname">p</span>{<br />
+              <span class="attr" style="margin-left: 5%">font-family</span>:
+              <span class="tagcolor">veranda</span>;<br />}
+            </div>
+            <a href="#" class="btn try">Try it Yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="concept-js">
+      <div class="grid grid-2-cols container">
+        <div class="inner">
+          <h1 class="heading-top js">JavaScript</h1>
+          <p class="inner-text">The Language for Building Web Pages</p>
+          <div class="button">
+            <a href="" class="learn">Learn JavaScript</a><br />
+            <a href="" class="scriptreference reference">JavaScript Reference</a
+            ><br />
+            <a href="" class="certified">Get Certified</a>
+          </div>
+        </div>
+        <div class="example">
+          <div class="example-innerbox">
+            <h3 class="heading-tertiary ex">JavaScript Example:</h3>
+            <div class="code"></div>
+            <a href="" class="btn try">Try it Yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="concept-python">
+      <div class="grid grid-2-cols container">
+        <div class="inner">
+          <h1 class="heading-top py">Python</h1>
+          <p class="inner-text">A Popular Programming Language</p>
+          <div class="button">
+            <a href="" class="learn">Learn Python</a><br />
+            <a href="" class="reference">Python Reference</a><br />
+            <a href="" class="certified">Get Certified</a>
+          </div>
+        </div>
+        <div class="example">
+          <div class="example-innerbox">
+            <h3 class="heading-tertiary ex">Python Example:</h3>
+            <div class="code code-py">
+              <span class="tagcolor">if</span>
+              <span class="attr">5</span>
+              <span class="tagcolor">></span>
+              <span class="attr">2</span>: <br />
+              <span class="print" style="margin-left: 5%; font-size: 20px"
+                >print</span
+              >
+              <span class="print">(</span>
+              <span class="tagname">"Five is greater than 2!"</span>
+              <span class="print">)</span>
+            </div>
+            <a href="#" class="btn try"> Try it Yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="concept-sql">
+      <div class="grid grid-2-cols container">
+        <div class="inner">
+          <h1 class="heading-top py">SQL</h1>
+          <p class="inner-text">A language for accessing databases</p>
+          <div class="button">
+            <a href="" class="learn">Learn SQL</a><br />
+            <a href="" class="reference">SQL Reference</a><br />
+            <a href="" class="certified">Get Certified</a>
+          </div>
+        </div>
+        <div class="example">
+          <div class="example-innerbox">
+            <h3 class="heading-tertiary ex">SQL Example:</h3>
+            <div class="code code-py">
+              <span class="tagcolor">SELECT</span>
+              <span>*</span>
+              <span class="tagcolor">FROM</span>
+              <span class="print" style="font-size: 20px">customers</span><br />
+              <span class="tagcolor">WHERE</span>
+              <span class="print" style="font-size: 20px">country=</span>
+              <span class="tagname">"Mexico"</span>
+              <span class="print" style="font-size: 20px">;</span>
+            </div>
+            <a href="#" class="btn try">Try it Yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-3rows-grid">
+      <div class="grid grid-3-rows">
+        <div class="box php align-end">
+          <h2 class="box-heading">PHP</h2>
+          <div class="box-text-box">
+            <h5 class="box-text">A web server programming language</h5>
+          </div>
+          <a href="#" class="btn reference">Learn PHP</a>
+        </div>
+        <div class="box jquery align-start">
+          <h2 class="box-heading">jQuery</h2>
+          <div class="box-text-box">
+            <h5 class="box-text">A JS library for developing web pages</h5>
+          </div>
+          <a href="#" class="btn reference">Learn jQuery</a>
+        </div>
+        <div class="box java align-end">
+          <h2 class="box-heading">Java</h2>
+          <div class="box-text-box">
+            <h5 class="box-text">A Programming Language</h5>
+          </div>
+          <a href="" class="btn reference">Learn Java</a>
+        </div>
+        <div class="box cplus align-start">
+          <h2 class="box-heading">C++</h2>
+          <div class="box-text-box">
+            <h5 class="box-text">A Programming Language</h5>
+          </div>
+          <a href="#" class="btn reference">Learn C++</a>
+        </div>
+        <div class="box wcss align-end">
+          <h2 class="box-heading">W3.CSS</h2>
+          <div class="box-text-box">
+            <h5 class="box-text">
+              A CSS framework for faster and better responsive web pages
+            </h5>
+          </div>
+          <a href="#" class="btn reference">Learn W3.CSS</a>
+        </div>
+        <div class="box bootstrap align-start">
+          <h2 class="box-heading">Bootstrap</h2>
+          <div class="box-text-box">
+            <h5 class="box-text">
+              A CSS framework for designing better web pages
+            </h5>
+          </div>
+          <a href="#" class="btn reference">Learn Bootstrap</a>
+        </div>
+        <div class="box c align-end">
+          <a href="#" class="box-link">
+            <h2 class="sh">C</h2>
+          </a>
+        </div>
+        <div class="box cplus align-start padding">
+          <a href="#" class="box-link">
+            <h2 class="sh">C++</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="section-4-cols">
+      <div class="grid grid-4-cols container1">
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">R</h2>
+        </a>
+        <a href="#" class="cols-4-link k">
+          <h2 class="sh">Kotlin</h2>
+        </a>
+        <a href="#" class="cols-4-link n">
+          <h2 class="sh">Node.js</h2>
+        </a>
+        <a href="#" class="cols-4-link re">
+          <h2 class="sh">React</h2>
+        </a>
+        <a href="#" class="cols-4-link j">
+          <h2 class="sh">Json</h2>
+        </a>
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">Vue</h2>
+        </a>
+        <a href="#" class="cols-4-link k">
+          <h2 class="sh">MySql</h2>
+        </a>
+        <a href="#" class="cols-4-link n">
+          <h2 class="sh">XML</h2>
+        </a>
+        <a href="#" class="cols-4-link re">
+          <h2 class="sh">Sass</h2>
+        </a>
+        <a href="#" class="cols-4-link j">
+          <h2 class="sh">Icons</h2>
+        </a>
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">RWD</h2>
+        </a>
+        <a href="#" class="cols-4-link k">
+          <h2 class="sh">Graphics</h2>
+        </a>
+        <a href="#" class="cols-4-link n">
+          <h2 class="sh">SVG</h2>
+        </a>
+        <a href="#" class="cols-4-link re">
+          <h2 class="sh">Canvas</h2>
+        </a>
+        <a href="#" class="cols-4-link j">
+          <h2 class="sh">Rasberry Pi</h2>
+        </a>
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">Cyber Security</h2>
+        </a>
+        <a href="#" class="cols-4-link k">
+          <h2 class="sh">Colors</h2>
+        </a>
+        <a href="#" class="cols-4-link n">
+          <h2 class="sh">Git</h2>
+        </a>
+        <a href="#" class="cols-4-link re">
+          <h2 class="sh">Matplotlib</h2>
+        </a>
+        <a href="#" class="cols-4-link j">
+          <h2 class="sh">Numpy</h2>
+        </a>
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">Pandas</h2>
+        </a>
+        <a href="#" class="cols-4-link k">
+          <h2 class="sh">SciPy</h2>
+        </a>
+        <a href="#" class="cols-4-link n">
+          <h2 class="sh">ASP</h2>
+        </a>
+        <a href="#" class="cols-4-link re">
+          <h2 class="sh">Angular JS</h2>
+        </a>
+        <a href="#" class="cols-4-link j">
+          <h2 class="sh">AppML</h2>
+        </a>
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">Go</h2>
+        </a>
+        <a href="#" class="cols-4-link k">
+          <h2 class="sh">TypeScript</h2>
+        </a>
+        <a href="#" class="cols-4-link n">
+          <h2 class="sh">Django</h2>
+        </a>
+        <a href="#" class="cols-4-link re">
+          <h2 class="sh">MongoDB</h2>
+        </a>
+        <a href="#" class="cols-4-link j">
+          <h2 class="sh">Statistics</h2>
+        </a>
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">Data Science</h2>
+        </a>
+        <a href="#" class="cols-4-link k">
+          <h2 class="sh">Typing Speed</h2>
+        </a>
+        <a href="#" class="cols-4-link n">
+          <h2 class="sh">HowTo</h2>
+        </a>
+        <a href="#" class="cols-4-link re">
+          <h2 class="sh">Code Game</h2>
+        </a>
+        <a href="#" class="cols-4-link j">
+          <h2 class="sh">Spaces</h2>
+        </a>
+        <a href="#" class="cols-4-link r">
+          <h2 class="sh">Postgre SQL</h2>
+        </a>
+      </div>
+    </div>
+    <div class="section-3rows-grid">
+      <div class="container1">
+        <div class="grid grid-2-cols">
+          <div class="box align-end n excel">
+            <a href="#" class="box-link">
+              <h2 class="sh">Excel</h2>
+            </a>
+          </div>
+          <div class="box align-start j excel">
+            <a href="#" class="box-link">
+              <h2 class="sh">Google Sheets</h2>
+            </a>
+          </div>
+          <div class="box align-end re excel">
+            <a href="#" class="box-link">
+              <h2 class="sh">Machine Learning</h2>
+            </a>
+          </div>
+          <div class="box align-start r excel">
+            <a href="#" class="box-link">
+              <h2 class="sh">Artificial Intelligence</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-gif">
+      <div class="gif-content">
+        <h1 class="gif-heading">Code Editor</h1>
+        <h4 class="gif-subheading">
+          With our online code editor, you can edit code and view the result in
+          your browser
+        </h4>
+        <br />
+        <br />
+        <div class="codeeditor">
+          <div class="codeeditor-search">
+            <div class="three-dots">
+              <span class="dot dot1"></span>
+              <span class="dot dot2"></span>
+              <span class="dot dot3"></span>
+            </div>
+            <div class="editor-input">
+              <input type="text" value="www.w3schools.com/tryit/" />
+            </div>
+          </div>
+          <div class="end">
+            <button class="frontend">Frontend</button>
+            <button class="backend">Backend</button>
+          </div>
+          <div>
+            <img
+              src="codeeditor.gif"
+              alt="Frontend code editor"
+              class="frontend-code"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
